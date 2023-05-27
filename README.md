@@ -11,11 +11,16 @@ First Information Report (FIR) documents contain details about incidents of cogn
 FIRs are usually filed by a police official filling up a printed form; hence the documents contain both printed and handwritten text. This Dataset consists of FIR documents written at police stations in India. 
 
 FIR contains many fields including the name of the complainant, names of suspected/alleged persons, statutes that may have been violated, date and location of the incident, and so on. In this work, we selected four target fields from FIR documents for the data annotation and recognition task : \
+
 ```
-  (1) Year : The year in which the complaint is being recorded.
-  (2) Complainant’s name:  Name of the person who lodged the complaint. 
-  (3) Police Station : Name of the police station that is responsible for investigating the particular incident  
-  (4) Statutes : Indian laws that have potentially been violated in the reported incident; these laws give a good indication of the type of the crime. 
+  - category_id: 0
+      - Police Station : Name of the police station that is responsible for investigating the particular incident  
+  - category_id: 1
+      - Year : The year in which the complaint is being recorded.
+  - category_id: 2
+      - Statutes : Indian laws that have potentially been violated in the reported incident; these laws give a good indication of the type of the crime. 
+  - category_id: 3
+      - Complainant’s name:  Name of the person who lodged the complaint.  
 ```
 ## Citation
 If you use this dataset , please refer to the following paper:
