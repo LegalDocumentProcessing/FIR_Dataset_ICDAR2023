@@ -16,5 +16,13 @@ FIR contains many fields including the name of the complainant, names of suspect
   (3) **`Police Station`** : Name of the police station that is responsible for investigating the particular incident and \
   (4) **`Statutes`** : Indian laws that have potentially been violated in the reported incident; these laws give a good indication of the type of the crime. 
 
-We selected these four target fields because we were able to collect the gold standard for these four fields from some of the police databases. Also, digitizing these four
-fields would enable various societal analysis, such as analysis of the nature of crimes in different police stations, temporal variations in crimes, and so on.
+## Citation
+If you use this dataset , please refer to the following paper:
+```
+  @inproceedings{sagar2023fir,
+   author = {Chakraborty, Sagar and Harit, Gaurav and Ghosh, Saptarshi},
+   title = {{TransDocAnalyser: A Framework for Offline Semi-structured Handwritten Document Analysis in the Legal Domain}},
+   booktitle = {{Proceedings of the 17th International Conference on Document Analysis and Recognition (ICDAR)}},
+   year = {2023}
+  }
+ ```
