@@ -34,7 +34,7 @@ If you use this dataset , please refer to the following paper:
  ```
 ## Dataset and Annotation
 
-FIR dataset is consists of 544 annotated images. There are total 2447 annotations. For FIR image the dataset json contains around four annotated key text fields, such as Police Station, Year, Statutes and Complainant's name. 
+FIR dataset is consists of 544 annotated images. There are total 2447 annotations. The dataset json contains around four annotated key text fields, such as Police Station, Year, Statutes and Complainant's name for each FIR image. All the images are of 740 X 1180 pixels.
 
 For FIR OCR task, each image in the dataset is annotated with text bounding boxes ("bbox") and the transcript of each text bbox("text"). Locations are annotated as rectangles with four coordinates, which are the start points (Xmin, Ymin) and the end point(Xmax, Ymax). 
 
