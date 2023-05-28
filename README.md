@@ -51,4 +51,13 @@ For FIR OCR task, each image in the dataset is annotated with text bounding boxe
 "text": Text value inside the bounding box
 ```
 
+## Task
+
+The FIR dataset can be used for 3 kinds of document analysis tasks:
+
+    1) Text Localisation: The aim of this task is to accurately localize texts with 4 vertices.
+
+    2) Handwritten Recognition (HWR): The aim of this task is to accurately recognize the handwritten text in a images. 
+
+    3) Key Information Extraction : The aim of this task is to extract texts of a number of key fields from given FIR documents such as Year, Police Station, Complainant's Name and statutes
 
