@@ -38,7 +38,8 @@ FIR dataset is consists of 544 annotated images. There are total 2447 annotation
 
 For FIR OCR task, each image in the dataset is annotated with text bounding boxes ("bbox") and the transcript of each text bbox("text"). Locations are annotated as rectangles with four coordinates, which are the start points (Xmin, Ymin) and the end point(Xmax, Ymax). 
 
-```
+```json
+{
 "image_id": unique index for each image,
 "bbox": [
     Xmin,
@@ -49,6 +50,7 @@ For FIR OCR task, each image in the dataset is annotated with text bounding boxe
 "category_id": Name of the entity,
 "image_name": Image File Name,
 "text": Text value inside the bounding box
+}
 ```
 
 ## Task
